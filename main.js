@@ -2,8 +2,6 @@ const currentDayElement = document.getElementById('dayoftheweek');
 const currentTimeElement = document.getElementById('current-time');
 const date = new Date();
 let day = date.getDay();
-let hours = date.getUTCHours();
-let minutes = date.getUTCMinutes();
 let ms = date.getUTCMilliseconds();
 currentTimeElement.textContent = ms;
 
